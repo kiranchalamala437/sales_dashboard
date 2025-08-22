@@ -118,7 +118,6 @@ for name, sql in queries.items():
         plot_and_save(df, "customer_name", "total_revenue", "Top 10 Customers by Revenue")
     elif name == "query2_monthly_revenue":
         plot_and_save(df, "month_name", "total_revenue", "Monthly Revenue Trend", kind="line", rotation=30)
-
     elif name == "query3_top_products":
         plot_and_save(df, "product_name", "total_sales", "Top 5 Products by Sales")
     elif name == "query4_region_sales":
