@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# IDE/system
+.vscode/
+.DS_Store
+
+# Local creds
+.env
+
+# Outputs (keep folder, ignore large/generated files)
+output/*.csv
+output/*.png
+output/*.pdf
+
+# Allow keeping empty output folder
+!output/.gitkeep
